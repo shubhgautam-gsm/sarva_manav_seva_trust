@@ -310,7 +310,7 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
 }
 
 /* reduced motion respect */
-@media (prefers-reduced-motion:no-preference) {
+@media (prefers-reduced-motion:reduce) {
   body {
     animation:alternate !important;
     background-image: url('./imgs/ram1.jpg') !important;
