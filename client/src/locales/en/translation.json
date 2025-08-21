@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "donate": "Donate",
+    "media": "Media",
+    "join": "Join Us",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Sarva Manav Seva Sarvajanik Trust",
+    "subtitle": "Serving humanity since 1987 \u2014 free meals, transport, medical equipment, and care for patients & attendants.",
+    "cta_donate": "Donate",
+    "cta_volunteer": "Volunteer"
+  },
+  "donate": {
+    "heading": "Donate",
+    "bank": "Bank Details",
+    "info": "We accept donations in any form, including cash, 2 kg of rice, or 1 kg of ghee. Your contributions are vital for our services.",
+    "account1": "Shri Manav Seva Sarvajanik Trust, Rajkot Nagrik Sahakari Bank Ltd., Para Bazar Branch, A/C 010003100080532, IFSC RNSB0000001",
+    "account2": "Jayagurudev Hospital Seva Mandal, Rajkot Nagrik Sahakari Bank Ltd., Para Bazar Branch, A/C 010003100078035, IFSC RNSB0000001",
+    "online_heading": "Donate Online",
+    "online_info": "Make an instant donation using UPI, Card, Netbanking or Wallet. Secure payments powered by Razorpay.",
+    "amount_label": "Donation Amount (\u20b9)",
+    "donor_name": "Your Name (Optional)",
+    "donor_email": "Email (Optional)",
+    "donor_phone": "Phone (Optional)",
+    "donation_purpose": "Purpose (Optional)",
+    "quick_amounts": "Quick Select:",
+    "donate_button": "Donate Now",
+    "custom_amount": "Enter Custom Amount"
+  },
+  "about": {
+    "heading": "About Us",
+    "body": "Shri Manav Seva Sarvajanik Trust, Rajkot has been providing selfless service since 1987 at Rajkot's government hospitals."
+  },
+  "services": {
+    "heading": "Our Services",
+    "subheading_meals": "Meals & Nourishment",
+    "body_meals": "We provide pure and nutritious breakfast, lunch, and dinner to patients and their relatives 365 days a year."
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "office": "Office",
+    "address": "6, Raghuvirpara Street No. 6, Rajkot-360001",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "footer": {
+    "rights": "\u00a9 2025 Sarva Manav Seva Sarvajanik Trust. All rights reserved."
+  }
+}
