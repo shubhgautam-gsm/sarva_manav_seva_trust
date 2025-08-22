@@ -1,54 +1,54 @@
 {
   "nav": {
-    "home": "\u0ab9\u0acb\u0aae",
-    "about": "\u0a85\u0aae\u0abe\u0ab0\u0abe \u0ab5\u0abf\u0ab6\u0ac7",
-    "services": "\u0ab8\u0ac7\u0ab5\u0abe\u0a93",
-    "donate": "\u0aa6\u0abe\u0aa8",
-    "media": "\u0aae\u0ac0\u0aa1\u0abf\u0aaf\u0abe",
-    "join": "\u0a9c\u0acb\u0aa1\u0abe\u0a93",
-    "contact": "\u0ab8\u0a82\u0aaa\u0ab0\u0acd\u0a95",
-    "admin": "\u0a8f\u0aa1\u0aae\u0abf\u0aa8"
+    "home": "હોમ",
+    "about": "અમારા વિશે",
+    "services": "સેવાઓ",
+    "donate": "દાન કરો",
+    "media": "મીડિયા",
+    "join": "જોડાઓ",
+    "contact": "સંપર્ક",
+    "admin": "એડમિન"
   },
   "hero": {
-    "title": "\u0ab8\u0ab0\u0acd\u0ab5 \u0aae\u0abe\u0aa8\u0ab5 \u0ab8\u0ac7\u0ab5\u0abe \u0ab8\u0abe\u0ab0\u0acd\u0ab5\u0a9c\u0aa8\u0abf\u0a95 \u0a9f\u0acd\u0ab0\u0ab8\u0acd\u0a9f",
-    "subtitle": "1987 \u0aa5\u0ac0 \u0ab8\u0ac7\u0ab5\u0abe \u2014 \u0aa6\u0ab0\u0acd\u0aa6\u0ac0\u0a93 \u0a85\u0aa8\u0ac7 \u0aa4\u0ac7\u0aae\u0aa8\u0abe \u0ab8\u0a97\u0abe\u0a82 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0aab\u0aa4 \u0aad\u0acb\u0a9c\u0aa8, \u0aaa\u0ab0\u0abf\u0ab5\u0ab9\u0aa8, \u0aa4\u0aac\u0ac0\u0aac\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0acb \u0a85\u0aa8\u0ac7 \u0a95\u0abe\u0ab3\u0a9c\u0ac0.",
-    "cta_donate": "\u0aa6\u0abe\u0aa8 \u0a95\u0ab0\u0acb",
-    "cta_volunteer": "\u0ab8\u0acd\u0ab5\u0aaf\u0a82\u0ab8\u0ac7\u0ab5\u0a95 \u0aac\u0aa8\u0acb"
+    "title": "શ્રી માનવ સેવા સાર્વજનિક ટ્રસ્ટ",
+    "subtitle": "1987 થી માનવતાની સેવા - દર્દીઓ અને તેમના સ્વજનો માટે મફત ભોજન, પરિવહન, તબીબી સાધનો અને સંભાળ.",
+    "cta_donate": "દાન કરો",
+    "cta_volunteer": "સ્વયંસેવક"
   },
   "donate": {
-    "heading": "\u0aa6\u0abe\u0aa8",
-    "bank": "\u0aac\u0ac7\u0a82\u0a95 \u0ab5\u0abf\u0a97\u0aa4\u0acb",
-    "info": "\u0a85\u0aae\u0ac7 \u0a95\u0acb\u0a88\u0aaa\u0aa3 \u0ab8\u0acd\u0ab5\u0ab0\u0ac2\u0aaa\u0aae\u0abe\u0a82 \u0aa6\u0abe\u0aa8 \u0ab8\u0acd\u0ab5\u0ac0\u0a95\u0abe\u0ab0\u0ac0\u0a8f \u0a9b\u0ac0\u0a8f, \u0a9c\u0ac7\u0aae\u0abe\u0a82 \u0ab0\u0acb\u0a95\u0aa1, 2 \u0a95\u0abf\u0ab2\u0acb \u0a9a\u0acb\u0a96\u0abe, \u0a85\u0aa5\u0ab5\u0abe 1 \u0a95\u0abf\u0ab2\u0acb \u0a98\u0ac0\u0aa8\u0acb \u0ab8\u0aae\u0abe\u0ab5\u0ac7\u0ab6 \u0aa5\u0abe\u0aaf \u0a9b\u0ac7.",
-    "account1": "\u0ab6\u0acd\u0ab0\u0ac0 \u0aae\u0abe\u0aa8\u0ab5 \u0ab8\u0ac7\u0ab5\u0abe \u0ab8\u0abe\u0ab0\u0acd\u0ab5\u0a9c\u0aa8\u0abf\u0a95 \u0a9f\u0acd\u0ab0\u0ab8\u0acd\u0a9f, \u0ab0\u0abe\u0a9c\u0a95\u0acb\u0a9f \u0aa8\u0abe\u0a97\u0ab0\u0abf\u0a95 \u0ab8\u0ab9\u0a95\u0abe\u0ab0\u0ac0 \u0aac\u0ac7\u0a82\u0a95 \u0ab2\u0abf., \u0aaa\u0abe\u0ab0\u0abe \u0aac\u0a9c\u0abe\u0ab0 \u0aac\u0acd\u0ab0\u0abe\u0a82\u0a9a, \u0a96\u0abe\u0aa4\u0abe \u0aa8\u0a82. 010003100080532, IFSC RNSB0000001",
-    "account2": "\u0a9c\u0aaf\u0a97\u0ac1\u0ab0\u0ac2\u0aa6\u0ac7\u0ab5 \u0ab9\u0acb\u0ab8\u0acd\u0aaa\u0abf\u0a9f\u0ab2 \u0ab8\u0ac7\u0ab5\u0abe \u0aae\u0a82\u0aa1\u0ab3, \u0ab0\u0abe\u0a9c\u0a95\u0acb\u0a9f \u0aa8\u0abe\u0a97\u0ab0\u0abf\u0a95 \u0ab8\u0ab9\u0a95\u0abe\u0ab0\u0ac0 \u0aac\u0ac7\u0a82\u0a95 \u0ab2\u0abf., \u0aaa\u0abe\u0ab0\u0abe \u0aac\u0a9c\u0abe\u0ab0 \u0aac\u0acd\u0ab0\u0abe\u0a82\u0a9a, \u0a96\u0abe\u0aa4\u0abe \u0aa8\u0a82. 010003100078035, IFSC RNSB0000001",
-    "online_heading": "\u0a93\u0aa8\u0ab2\u0abe\u0a87\u0aa8 \u0aa6\u0abe\u0aa8",
-    "online_info": "UPI, \u0a95\u0abe\u0ab0\u0acd\u0aa1, \u0aa8\u0ac7\u0a9f\u0aac\u0ac7\u0a82\u0a95\u0abf\u0a82\u0a97 \u0a85\u0aa5\u0ab5\u0abe \u0ab5\u0acb\u0ab2\u0ac7\u0a9f\u0aa8\u0acb \u0a89\u0aaa\u0aaf\u0acb\u0a97 \u0a95\u0ab0\u0ac0\u0aa8\u0ac7 \u0aa4\u0abe\u0aa4\u0acd\u0a95\u0abe\u0ab2\u0abf\u0a95 \u0aa6\u0abe\u0aa8 \u0a95\u0ab0\u0acb.",
-    "amount_label": "\u0aa6\u0abe\u0aa8\u0aa8\u0ac0 \u0ab0\u0a95\u0aae (\u20b9)",
-    "donor_name": "\u0aa4\u0aae\u0abe\u0ab0\u0ac1\u0a82 \u0aa8\u0abe\u0aae (\u0ab5\u0ac8\u0a95\u0ab2\u0acd\u0aaa\u0abf\u0a95)",
-    "donor_email": "\u0a87\u0aae\u0ac7\u0a87\u0ab2 (\u0ab5\u0ac8\u0a95\u0ab2\u0acd\u0aaa\u0abf\u0a95)",
-    "donor_phone": "\u0aab\u0acb\u0aa8 (\u0ab5\u0ac8\u0a95\u0ab2\u0acd\u0aaa\u0abf\u0a95)",
-    "donation_purpose": "\u0ab9\u0ac7\u0aa4\u0ac1 (\u0ab5\u0ac8\u0a95\u0ab2\u0acd\u0aaa\u0abf\u0a95)",
-    "quick_amounts": "\u0a9d\u0aa1\u0aaa\u0ac0 \u0aaa\u0ab8\u0a82\u0aa6\u0a97\u0ac0:",
-    "donate_button": "\u0aa6\u0abe\u0aa8 \u0a95\u0ab0\u0acb",
-    "custom_amount": "\u0a95\u0ab8\u0acd\u0a9f\u0aae \u0ab0\u0a95\u0aae \u0aa6\u0abe\u0a96\u0ab2 \u0a95\u0ab0\u0acb"
+    "heading": "દાન કરો",
+    "bank": "બેંક વિગતો",
+    "info": "અમે કોઈપણ સ્વરૂપમાં દાન સ્વીકારીએ છીએ, જેમાં રોકડ, 2 કિલો ચોખા અથવા 1 કિલો ઘીનો સમાવેશ થાય છે. તમારા યોગદાન અમારી સેવાઓ માટે ખૂબ જ મહત્વપૂર્ણ છે.",
+    "account1": "શ્રી માનવ સેવા સાર્વજનિક ટ્રસ્ટ, રાજકોટ નાગરિક સહકારી બેંક લિ., પરા બજાર શાખા, ખાતા નંબર 010003100080532, IFSC RNSB0000001",
+    "account2": "જયગુરૂદેવ હોસ્પિટલ સેવા મંડળ, રાજકોટ નાગરિક સહકારી બેંક લિ., પરા બજાર શાખા, ખાતા નંબર 010003100078035, IFSC RNSB0000001",
+    "online_heading": "ઓનલાઈન દાન કરો",
+    "online_info": "UPI, કાર્ડ, નેટબેંકિંગ અથવા વોલેટનો ઉપયોગ કરીને તરત જ દાન કરો. Razorpay દ્વારા સંચાલિત સુરક્ષિત ચૂકવણી.",
+    "amount_label": "દાનની રકમ (₹)",
+    "donor_name": "તમારું નામ (વૈકલ્પિક)",
+    "donor_email": "ઈમેલ (વૈકલ્પિક)",
+    "donor_phone": "ફોન (વૈકલ્પિક)",
+    "donation_purpose": "હેતુ (વૈકલ્પિક)",
+    "quick_amounts": "ઝડપી પસંદગી:",
+    "donate_button": "હવે દાન કરો",
+    "custom_amount": "કસ્ટમ રકમ દાખલ કરો"
   },
   "about": {
-    "heading": "\u0a85\u0aae\u0abe\u0ab0\u0abe \u0ab5\u0abf\u0ab6\u0ac7",
-    "body": "\u0ab6\u0acd\u0ab0\u0ac0 \u0aae\u0abe\u0aa8\u0ab5 \u0ab8\u0ac7\u0ab5\u0abe \u0ab8\u0abe\u0ab0\u0acd\u0ab5\u0a9c\u0aa8\u0abf\u0a95 \u0a9f\u0acd\u0ab0\u0ab8\u0acd\u0a9f, \u0ab0\u0abe\u0a9c\u0a95\u0acb\u0a9f 1987 \u0aa5\u0ac0 \u0ab0\u0abe\u0a9c\u0a95\u0acb\u0a9f\u0aa8\u0ac0 \u0ab8\u0ab0\u0a95\u0abe\u0ab0\u0ac0 \u0ab9\u0acb\u0ab8\u0acd\u0aaa\u0abf\u0a9f\u0ab2\u0acb\u0aae\u0abe\u0a82 \u0aa8\u0abf\u0ab8\u0acd\u0ab5\u0abe\u0ab0\u0acd\u0aa5 \u0ab8\u0ac7\u0ab5\u0abe \u0aaa\u0ac2\u0ab0\u0ac0 \u0aaa\u0abe\u0aa1\u0ac0 \u0ab0\u0ab9\u0ac0 \u0a9b\u0ac7."
+    "heading": "અમારા વિશે",
+    "body": "શ્રી માનવ સેવા સાર્વજનિક ટ્રસ્ટ, રાજકોટ, અને તેની સહયોગી સંસ્થા, શ્રી નકલંક સેવા ચેરીટેબલ ટ્રસ્ટ, રાજકોટ, 1987 થી અવિરત, વિનામૂલ્યે સેવાઓ પ્રદાન કરી રહી છે. અમારું હોસ્પિટલ સેવા મંડળ, જયસીયારામ જયબાલાજી જયગુરૂદેવ હોસ્પિટલ સેવા મંડળ, રાજકોટની સરકારી પંડિત દીનદયાલ સિવિલ હોસ્પિટલ, પદ્મકુંવરબા ગુંદાવાડી હોસ્પિટલ અને રસુલખાન ઝનાના હોસ્પિટલમાં દર્દીઓના સ્વજનો માટે વર્ષના 365 દિવસ, સવારે, બપોરે અને સાંજે શુદ્ધ, પૌષ્ટિક ચા, દૂધ, નાસ્તો અને ભોજન પૂરું પાડે છે. અમે સૌરાષ્ટ્રભરના દર્દીઓને દવાઓ, ઇન્જેક્શન્સ, તબીબી સાધનો અને પરિવહનમાં પણ મદદ કરીએ છીએ. અમારો વહીવટી ખર્ચ શૂન્ય ગણાય છે, જે સુનિશ્ચિત કરે છે કે તમારા દાનનો દરેક રૂપિયો જરૂરિયાતમંદો સુધી સીધો પહોંચે. અમારા હિસાબો CA દ્વારા ઓડિટ કરાવાય છે, અને અમે સમયસર ઇન્કમ ટેક્સ રિટર્ન પણ ભરીએ છીએ, તેમજ અમારી પાસે 80G અને CSR નંબર પણ છે. આ ટ્રસ્ટને 200 થી 250 સમર્પિત સ્વયંસેવકોનો સહયોગ મળે છે, જેમાંથી કેટલાક દાયકાઓથી અથવા પેઢીઓથી અમારી સાથે જોડાયેલા છે."
   },
   "services": {
-    "heading": "\u0a85\u0aae\u0abe\u0ab0\u0ac0 \u0ab8\u0ac7\u0ab5\u0abe\u0a93",
-    "subheading_meals": "\u0aad\u0acb\u0a9c\u0aa8 \u0a85\u0aa8\u0ac7 \u0aaa\u0acb\u0ab7\u0aa3",
-    "body_meals": "\u0a85\u0aae\u0ac7 \u0aa6\u0ab0\u0acd\u0aa6\u0ac0\u0a93 \u0a85\u0aa8\u0ac7 \u0aa4\u0ac7\u0aae\u0aa8\u0abe \u0ab8\u0a97\u0abe\u0a82\u0a93\u0aa8\u0ac7 \u0ab5\u0ab0\u0acd\u0ab7\u0aa8\u0abe 365 \u0aa6\u0abf\u0ab5\u0ab8 \u0ab6\u0ac1\u0aa6\u0acd\u0aa7 \u0a85\u0aa8\u0ac7 \u0aaa\u0acc\u0ab7\u0acd\u0a9f\u0abf\u0a95 \u0aa8\u0abe\u0ab8\u0acd\u0aa4\u0acb, \u0aac\u0aaa\u0acb\u0ab0\u0aa8\u0ac1\u0a82 \u0aad\u0acb\u0a9c\u0aa8 \u0a85\u0aa8\u0ac7 \u0ab0\u0abe\u0aa4\u0acd\u0ab0\u0abf\u0aa8\u0ac1\u0a82 \u0aad\u0acb\u0a9c\u0aa8 \u0aaa\u0ac2\u0ab0\u0ac1\u0a82 \u0aaa\u0abe\u0aa1\u0ac0\u0a8f \u0a9b\u0ac0\u0a8f."
+    "heading": "અમારી સેવાઓ",
+    "subheading_meals": "ભોજન અને પોષણ",
+    "body_meals": "અમે વર્ષના 365 દિવસ દર્દીઓ અને તેમના સ્વજનોને શુદ્ધ અને પૌષ્ટિક નાસ્તો, બપોરનું ભોજન અને રાત્રિભોજન પ્રદાન કરીએ છીએ."
   },
   "contact": {
-    "heading": "\u0a85\u0aae\u0abe\u0ab0\u0acb \u0ab8\u0a82\u0aaa\u0ab0\u0acd\u0a95 \u0a95\u0ab0\u0acb",
-    "office": "\u0a95\u0abe\u0ab0\u0acd\u0aaf\u0abe\u0ab2\u0aaf",
-    "address": "\u0aec, \u0ab0\u0a98\u0ac1\u0ab5\u0ac0\u0ab0\u0aaa\u0ab0\u0abe \u0ab6\u0ac7\u0ab0\u0ac0 \u0aa8\u0a82. \u0aec, \u0ab0\u0abe\u0a9c\u0a95\u0acb\u0a9f-\u0ae9\u0aec\u0ae6\u0ae6\u0ae6\u0ae7",
-    "phone": "\u0aab\u0acb\u0aa8",
-    "email": "\u0a87\u0aae\u0ac7\u0a87\u0ab2"
+    "heading": "અમારો સંપર્ક કરો",
+    "office": "કાર્યાલય",
+    "address": "6, રઘુવીરપરા શેરી નં. 6, રાજકોટ-360001",
+    "phone": "ફોન: 0281-2231967",
+    "email": "ઈમેલ: jaysiyaramhospital@gmail.com"
   },
   "footer": {
-    "rights": "\u00a9 2025 \u0ab8\u0ab0\u0acd\u0ab5 \u0aae\u0abe\u0aa8\u0ab5 \u0ab8\u0ac7\u0ab5\u0abe \u0ab8\u0abe\u0ab0\u0acd\u0ab5\u0a9c\u0aa8\u0abf\u0a95 \u0a9f\u0acd\u0ab0\u0ab8\u0acd\u0a9f. \u0ab8\u0ab0\u0acd\u0ab5 \u0ab9\u0a95 \u0ab8\u0ac1\u0ab0\u0a95\u0acd\u0ab7\u0abf\u0aa4."
+    "rights": "© 2025 શ્રી માનવ સેવા સાર્વજનિક ટ્રસ્ટ. સર્વ હક સુરક્ષિત."
   }
 }

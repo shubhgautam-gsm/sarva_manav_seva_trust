@@ -10,8 +10,8 @@
     "admin": "Admin"
   },
   "hero": {
-    "title": "Sarva Manav Seva Sarvajanik Trust",
-    "subtitle": "Serving humanity since 1987 \u2014 free meals, transport, medical equipment, and care for patients & attendants.",
+    "title": "Shri Manav Seva Sarvajanik Trust",
+    "subtitle": "Serving humanity since 1987 — free meals, transport, medical equipment, and care for patients & attendants.",
     "cta_donate": "Donate",
     "cta_volunteer": "Volunteer"
   },
@@ -23,7 +23,7 @@
     "account2": "Jayagurudev Hospital Seva Mandal, Rajkot Nagrik Sahakari Bank Ltd., Para Bazar Branch, A/C 010003100078035, IFSC RNSB0000001",
     "online_heading": "Donate Online",
     "online_info": "Make an instant donation using UPI, Card, Netbanking or Wallet. Secure payments powered by Razorpay.",
-    "amount_label": "Donation Amount (\u20b9)",
+    "amount_label": "Donation Amount (₹)",
     "donor_name": "Your Name (Optional)",
     "donor_email": "Email (Optional)",
     "donor_phone": "Phone (Optional)",
@@ -34,7 +34,7 @@
   },
   "about": {
     "heading": "About Us",
-    "body": "Shri Manav Seva Sarvajanik Trust, Rajkot has been providing selfless service since 1987 at Rajkot's government hospitals."
+    "body": "Shri Manav Seva Sarvajanik Trust, Rajkot, and its affiliated organization, Shri Nakalank Seva Charitable Trust, Rajkot, have been providing continuous, free-of-cost services since 1987. Our hospital service board, Jaysiyaram Jaybalaji Jaygurudev Hospital Seva Mandal, provides pure, wholesome, and nutritious tea, milk, snacks, and meals three times a day, 365 days a year, for the relatives of patients at the Government-run Pandit Dindayal Civil Hospital, Padmakunvarba Gundawadi Hospital, and Rasul Khan Zanana Hospital in Rajkot. We also assist patients from all over Saurashtra with medicines, injections, medical equipment, and transportation. Our administrative costs are considered to be negligible, ensuring that every rupee you donate goes directly to those who need it most. We have been audited by a CA, file income tax returns on time, and have an 80G and CSR number. The Trust is supported by 200 to 250 dedicated volunteers, some of whom have been with us for decades or have family traditions of volunteering."
   },
   "services": {
     "heading": "Our Services",
@@ -45,10 +45,10 @@
     "heading": "Contact Us",
     "office": "Office",
     "address": "6, Raghuvirpara Street No. 6, Rajkot-360001",
-    "phone": "Phone",
-    "email": "Email"
+    "phone": "Phone: 0281-2231967",
+    "email": "Email: jaysiyaramhospital@gmail.com"
   },
   "footer": {
-    "rights": "\u00a9 2025 Sarva Manav Seva Sarvajanik Trust. All rights reserved."
+    "rights": "© 2025 Sarva Manav Seva Sarvajanik Trust. All rights reserved."
   }
 }

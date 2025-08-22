@@ -25,7 +25,7 @@ export default function Navbar({ onThemeToggle, isLight }){
     <nav role="navigation" aria-label="Main">
       <div className="brand">
         <div className="logo"><img width='100%' src={logo} alt="" /></div>
-        <div className="title">Sarva Manav Seva Seva Sarvajanik Trust</div>
+        <div className="title">{t('hero.title')}</div>
       </div>
       <button className="menu-toggle" onClick={toggleMenu}>☰</button>
       <div className={`links ${isMenuOpen ? 'show' : ''}`}>
