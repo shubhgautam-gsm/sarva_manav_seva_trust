@@ -282,9 +282,145 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
   87.334%   { opacity: 0; }
   100%      { opacity: 0.6; }
 }
+/* About section improvements */
+#about .about-wrap {
+  margin-top: 6px;
+  padding: 14px;
+  color: #fff;
+}
+
+/* big decorative title */
+#about .about-hero {
+  margin-bottom: 18px;
+  text-align: left;
+}
+#about .about-title {
+  font-size: clamp(1.45rem, 3.6vw, 2.4rem);
+  margin: 0;
+  line-height: 1.05;
+  font-weight: 800;
+  /* gradient text with fallback shadow */
+  background: linear-gradient(90deg, var(--primary-2), var(--primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 8px 26px rgba(0,0,0,0.45);
+  letter-spacing: -0.5px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+
+/* subtitle */
+#about .about-sub {
+  margin: 0;
+  font-size: 0.96rem;
+  color: rgba(255,255,255,0.85);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  font-weight: 600;
+}
+
+/* grid layout: left card + right content */
+#about .about-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  align-items: start;
+}
+
+/* larger screens: two columns */
+@media (min-width: 900px) {
+  #about .about-grid {
+    grid-template-columns: 360px 1fr;
+  }
+}
+
+/* Left card style */
+#about .about-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+  box-shadow:
+    0 8px 30px rgba(2,6,23,0.65),
+    inset 0 1px 0 rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+/* decorative accent stripe on card left */
+#about .about-card .card-accent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: linear-gradient(180deg, var(--primary), var(--primary-2));
+  box-shadow: 0 8px 28px rgba(255,152,0,0.06);
+}
+
+/* card body padding */
+#about .about-card .card-body {
+  padding: 18px 18px 20px 26px; /* leave room for accent */
+  color: rgba(255,255,255,0.96);
+}
+
+#about .card-heading {
+  margin: 0 0 8px 0;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.2px;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.45);
+}
+
+/* meta lines */
+#about .meta-line {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.5;
+}
+
+/* main content column */
+#about .about-content {
+  padding: 8px 6px;
+}
+
+/* section heads inside content */
+#about .section-head {
+  font-size: 1.05rem;
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  color: var(--primary-2);
+  text-shadow: 0 4px 18px rgba(0,0,0,0.45);
+}
+
+/* paragraph text */
+#about .body-text {
+  color: rgba(255,255,255,0.95);
+  font-size: 1rem;
+  line-height: 1.9;
+  text-align: justify;
+  margin-bottom: 18px;
+  letter-spacing: 0.1px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.03);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+}
+
+
 
 /* small devices */
 @media (max-width: 640px) {
+    #about .body-text {
+    padding: 10px;
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  #about .about-card .card-body {
+    padding-left: 18px; /* smaller left offset on mobile */
+  }
   .bubble { display:block; }
   body { background-position: top center; background-size: cover; }
 }
