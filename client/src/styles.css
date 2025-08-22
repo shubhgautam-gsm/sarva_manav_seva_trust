@@ -124,9 +124,10 @@ nav a.active, nav a:hover{
 }
 
 .control-ghost{
-  background: transparent; border:1px solid rgba(255,255,255,0.06);
+  background: rgba(168, 255, 7, 0.533); border:1px solid rgba(255,255,255,0.06);
   color:inherit; padding:7px 10px; border-radius:8px; cursor:pointer;
   text-decoration:none;
+  border-radius: 5px/25px ;
 }
 
 .menu-toggle { display:none; font-size:1.5rem; cursor:pointer; border:none; background:transparent; color:inherit; }
@@ -287,6 +288,8 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
   .bubble { display:block; }
   body { background-position: top center; background-size: cover; }
 }
-
+.rd{
+  border-radius: 20px 0 0 0;
+}
 .card p a{text-decoration: none; color: #ffffff;}
 .content-above-bg { position: relative; z-index: 1; }

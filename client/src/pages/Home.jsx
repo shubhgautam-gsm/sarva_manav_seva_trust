@@ -47,7 +47,7 @@ export default function Home(){
             <p className="lead">{t('hero.subtitle')}</p>
             <div style={{ marginTop: 16, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <Link to="/donate" className="control-btn">{t('hero.cta_donate')}</Link>
-              <Link to="/join" className="control-ghost">{t('hero.cta_volunteer')}</Link>
+              <Link to="/join" className="control-btn">{t('hero.cta_volunteer')}</Link>
             </div>
           </div>
         </div>

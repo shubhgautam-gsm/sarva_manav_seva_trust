@@ -42,7 +42,6 @@ export default function Navbar({ onThemeToggle, isLight }){
       </div>
       <div className="controls">
         <LanguageToggle />
-        <ThemeToggle onToggle={onThemeToggle} isLight={isLight} />
       </div>
     </nav>
   );
