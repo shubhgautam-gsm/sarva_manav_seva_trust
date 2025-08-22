@@ -428,11 +428,13 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
 
 /* Grid: responsive masonry-like feel (auto-fit columns) */
 #gallery .media-grid {
+  
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   align-items: start;
   margin-top: 12px;
+  
 }
 
 /* Card — glass + gradient border + soft lift */
@@ -453,7 +455,7 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
   width: 100%;
   height: 100%;
   padding: 0;
-  text-align: left;
+  text-align: center;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -567,6 +569,7 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
   min-width: 54px;
   min-height: 54px;
   display: inline-grid;
+  
   place-items: center;
 }
 #gallery .modal-nav[disabled] { opacity: 0.48; cursor: not-allowed; }
