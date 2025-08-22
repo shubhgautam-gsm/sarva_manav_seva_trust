@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Section from '../components/Section.jsx';
 // import charity from '../imgs/help1.png'
-import charity from '../imgs/jalaram2.png'
+import charity from '../imgs/jrm2.png'
 
 export default function Home(){
   const { t } = useTranslation();

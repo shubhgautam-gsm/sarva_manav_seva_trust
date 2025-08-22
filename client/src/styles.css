@@ -27,9 +27,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: auto;
-  position: relative;
+  position:static;
   background-size: 100% 100%;
-  background-position: bottom;
   background-repeat: no-repeat;
   animation: bodyBgCycle var(--body-cycle-duration) linear infinite;
 }
