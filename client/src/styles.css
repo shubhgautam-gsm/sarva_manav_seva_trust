@@ -189,9 +189,7 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
 
 /* RESPONSIVE NAV */
 @media(max-width:768px){
-  a .nav-link{
-    color: #ffffff;
-  }
+ 
   .links{
     display: flex;
     flex-direction: column;
@@ -206,6 +204,7 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
     overflow: hidden;
     transition: max-height 0.35s ease;
   }
+  
   .links.show{
     max-height: 300px; /* expand smoothly */
   }

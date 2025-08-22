@@ -27,7 +27,6 @@ export default function Navbar({ onThemeToggle, isLight }){
         <div className="logo"><img width='100%' src={logo} alt="" /></div>
         <div className="title">{t('hero.title')}</div>
       </div>
-      <button className="menu-toggle" onClick={toggleMenu}>☰</button>
       <div className={`links ${isMenuOpen ? 'show' : ''}`}>
         {navLinks.map((link) => (
           <NavLink
@@ -40,9 +39,12 @@ export default function Navbar({ onThemeToggle, isLight }){
           </NavLink>
         ))}
       </div>
+      
       <div className="controls">
         <LanguageToggle />
       </div>
+            <button className="menu-toggle" onClick={toggleMenu}>☰</button>
+
     </nav>
   );
 }
