@@ -424,6 +424,211 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
   .bubble { display:block; }
   body { background-position: top center; background-size: cover; }
 }
+/* ---------- Media Master Styles ---------- */
+#gallery .media-master { padding: 6px 6px 26px; }
+
+/* Grid: responsive masonry-like feel (auto-fit columns) */
+#gallery .media-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-items: start;
+  margin-top: 12px;
+}
+
+/* Card — glass + gradient border + soft lift */
+#gallery .media-card {
+  border-radius: 14px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.03));
+  border: 1px solid rgba(255,255,255,0.04);
+  box-shadow:
+    0 12px 40px rgba(2,6,23,0.55),
+    inset 0 1px 0 rgba(255,255,255,0.02);
+  transition: transform .28s cubic-bezier(.2,.9,.3,1), box-shadow .28s ease, border-color .2s ease;
+}
+
+/* clickable area fills card */
+#gallery .media-thumb-btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  text-align: left;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* image box: subtle rounded crop */
+#gallery .media-thumb {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 62%; /* aspect ratio ~16:10 -> adjust to taste */
+  background: linear-gradient(180deg, rgba(255,255,255,0.015), rgba(0,0,0,0.035));
+}
+
+#gallery .media-thumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: center;
+  transition: transform .6s cubic-bezier(.2,.9,.3,1), filter .45s ease;
+  will-change: transform;
+  backface-visibility: hidden;
+  display: block;
+}
+
+/* meta overlay that sits outside the image but attached */
+#gallery .media-thumb-meta {
+  padding: 10px 12px;
+  background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,0.02));
+}
+
+#gallery .media-caption {
+  font-size: 0.96rem;
+  color: rgba(255,255,255,0.96);
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  text-shadow: 0 4px 14px rgba(0,0,0,0.5);
+}
+
+/* hover/focus: lift, depth, zoom image, show accent border */
+#gallery .media-card:hover,
+#gallery .media-thumb-btn:focus {
+  transform: translateY(-8px);
+  border-color: rgba(255,152,0,0.22);
+  box-shadow:
+    0 22px 60px rgba(2,6,23,0.65),
+    0 6px 18px rgba(255,152,0,0.04);
+}
+#gallery .media-card:hover img,
+#gallery .media-thumb-btn:focus img {
+  transform: scale(1.06) rotateZ(0.2deg);
+  filter: saturate(1.06) contrast(1.02);
+}
+
+/* ---------- Lightbox ---------- */
+#gallery .media-lightbox {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 9999;
+  background: linear-gradient(180deg, rgba(2,6,23,0.88), rgba(2,6,23,0.9));
+  padding: 20px;
+  backdrop-filter: blur(6px) saturate(1.05);
+}
+
+/* modal shell */
+#gallery .media-modal {
+  width: 100%;
+  max-width: 1100px;
+  max-height: 92vh;
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
+  gap: 12px;
+  align-items: center;
+  justify-items: center;
+  padding: 22px;
+  box-shadow: 0 40px 120px rgba(0,0,0,0.65);
+  background: linear-gradient(180deg, rgba(10,16,23,0.7), rgba(6,10,16,0.7));
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
+/* modal close button */
+#gallery .modal-close {
+  position: absolute;
+  right: 22px;
+  top: 18px;
+  z-index: 3;
+  background: rgba(255,255,255,0.04);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.05rem;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+
+/* nav arrows */
+#gallery .modal-nav {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  border: none;
+  color: #fff;
+  font-size: 2.2rem;
+  padding: 12px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  min-width: 54px;
+  min-height: 54px;
+  display: inline-grid;
+  place-items: center;
+}
+#gallery .modal-nav[disabled] { opacity: 0.48; cursor: not-allowed; }
+
+/* modal image container */
+#gallery .modal-figure {
+  margin: 0;
+  width: 100%;
+  max-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#gallery .modal-img {
+  max-width: 100%;
+  max-height: 72vh;
+  width: auto;
+  height: fit-content;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 24px 88px rgba(0,0,0,0.6);
+  transition: transform .28s ease, opacity .18s ease;
+}
+
+/* caption */
+#gallery .modal-caption {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: rgba(0,0,0,0.24);
+  border-radius: 8px;
+  color: rgba(255,255,255,0.96);
+  font-weight: 600;
+}
+
+/* smaller screens: stack layout */
+@media (max-width: 900px) {
+  #gallery .media-modal { grid-template-columns: 1fr; padding: 12px; gap: 10px; max-height: 96vh; }
+  #gallery .modal-nav { display: none; } /* rely on touch/keyboard nav */
+  #gallery .modal-close { right: 12px; top: 12px; }
+  #gallery .media-thumb img { transition-duration: .5s; }
+}
+
+/* focus visible */
+#gallery .media-thumb-btn:focus,
+#gallery .modal-nav:focus,
+#gallery .modal-close:focus {
+  outline: 3px solid rgba(255,152,0,0.18);
+  outline-offset: 4px;
+  border-radius: 10px;
+}
+
+/* accessibility: reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  #gallery .media-card, #gallery .media-modal, #gallery .modal-img, #gallery .media-thumb img {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
 .rd{
   border-radius: 20px 0 0 0;
 }

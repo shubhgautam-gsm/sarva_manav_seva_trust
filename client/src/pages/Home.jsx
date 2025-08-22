@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Section from '../components/Section.jsx';
 // import charity from '../imgs/help1.png'
-import charity from '../imgs/help3.jpg'
+import charity from '../imgs/jalaram2.png'
 
 export default function Home(){
   const { t } = useTranslation();
@@ -47,7 +47,7 @@ export default function Home(){
             <p className="lead">{t('hero.subtitle')}</p>
             <div style={{ marginTop: 16, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <Link to="/donate" className="control-btn">{t('hero.cta_donate')}</Link>
-              <Link to="/join" className="control-btn">{t('hero.cta_volunteer')}</Link>
+              <Link to="/join" className="control-btn ">{t('hero.cta_volunteer')}</Link>
             </div>
           </div>
         </div>
