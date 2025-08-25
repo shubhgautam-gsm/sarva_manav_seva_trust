@@ -614,6 +614,16 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
   #gallery .modal-nav { display: none; } /* rely on touch/keyboard nav */
   #gallery .modal-close { right: 12px; top: 12px; }
   #gallery .media-thumb img { transition-duration: .5s; }
+  .hero{
+    justify-content: center;
+    display: block;
+    width: 100%;
+    height: 60%;
+    padding-top: 0%;
+  }
+  .hero img{
+    width: 100%;
+  }
 }
 
 /* focus visible */
